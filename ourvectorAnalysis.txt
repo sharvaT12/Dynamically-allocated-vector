@@ -1,0 +1,38 @@
+*********************************************************
+ourvector<9pros_data> stats:
+ # of vectors created:   1
+ # of elements inserted: 3
+ # of elements accessed: 7
+*********************************************************
+*********************************************************
+ourvector<NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE> stats:
+ # of vectors created:   1
+ # of elements inserted: 0
+ # of elements accessed: 0
+*********************************************************
+*********************************************************
+ourvector<i> stats:
+ # of vectors created:   14
+ # of elements inserted: 27
+ # of elements accessed: 31
+*********************************************************
+*********************************************************
+ourvector<4Data> stats:
+ # of vectors created:   1
+ # of elements inserted: 3
+ # of elements accessed: 5
+*********************************************************
+*********************************************************
+ourvector<c> stats:
+ # of vectors created:   25
+ # of elements inserted: 248
+ # of elements accessed: 2144
+*********************************************************
+*********************************************************
+ourvector<9ourvectorIcE> stats:
+ # of vectors created:   1
+ # of elements inserted: 3
+ # of elements accessed: 3
+*********************************************************
+
+I am running small.txt with 1.txt and the number of ourvectors 43 ourvectors which are 1 ourvector of ourvector of char, 1 ourvector of struct Data, 14 ourvectors of int, 25 ourvectors of char, 1 ourvector of string and 1 ourvector of struct pros_data. I am using declaring one vector of ourvector of char in my main which stores 3 our ourvectors stored in function input_DNA to store the STR from data file. 1 ourvector of struct Data is created in main which stores 3 struct Data in inputdata function. There are 14 int ourvectors created from which 12 are created in load_db to store the str counts in which 27 integers are stored which are the count of str's. 25 ourvectors of char from which 1 is declared on line 45 to input str's, 4 are created in ourvector<ourvector<char>>, struct pros_data has 9 ourvector of char which is being used to store the str names, 4 are declared on line 335 inside pros_data temp, 3 are created on line 513 and 1 is being declared on line 509. One ourvector of string is declared in main for creative component. One ourvector of struct of pros_data is declared in main to store the processed data. 
